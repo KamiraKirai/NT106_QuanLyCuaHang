@@ -266,6 +266,7 @@
     <None Include="Resources\icons8-chart-32.png" />
     <None Include="Resources\icons8-exit-32.png" />
     <None Include="Resources\cleaning.png" />
+    <Content Include=".gitignore.txt" />
     <Content Include="Resources\icons8-tick-box-32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
