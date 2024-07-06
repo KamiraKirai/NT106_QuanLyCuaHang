@@ -151,7 +151,7 @@
             this.tabAdmin.Controls.Add(this.tabPage4);
             this.tabAdmin.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabAdmin.Location = new System.Drawing.Point(3, 4);
-            this.tabAdmin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabAdmin.Margin = new System.Windows.Forms.Padding(4);
             this.tabAdmin.Name = "tabAdmin";
             this.tabAdmin.SelectedIndex = 0;
             this.tabAdmin.Size = new System.Drawing.Size(1400, 873);
@@ -165,9 +165,9 @@
             this.tabPage2.Controls.Add(this.panel1);
             this.tabPage2.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage2.Location = new System.Drawing.Point(4, 36);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage2.Size = new System.Drawing.Size(1392, 833);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Doanh thu";
@@ -178,7 +178,7 @@
             this.panel2.Controls.Add(this.dateTime_FromDate);
             this.panel2.Controls.Add(this.dateTime_ToDate);
             this.panel2.Location = new System.Drawing.Point(8, 4);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1373, 95);
             this.panel2.TabIndex = 1;
@@ -189,7 +189,7 @@
             this.btnThongKe.Image = global::DoAnNhom3.Properties.Resources.icons8_chart_32;
             this.btnThongKe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThongKe.Location = new System.Drawing.Point(531, 17);
-            this.btnThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThongKe.Margin = new System.Windows.Forms.Padding(4);
             this.btnThongKe.Name = "btnThongKe";
             this.btnThongKe.Size = new System.Drawing.Size(235, 48);
             this.btnThongKe.TabIndex = 3;
@@ -204,7 +204,7 @@
             this.dateTime_FromDate.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTime_FromDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTime_FromDate.Location = new System.Drawing.Point(33, 22);
-            this.dateTime_FromDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTime_FromDate.Margin = new System.Windows.Forms.Padding(4);
             this.dateTime_FromDate.Name = "dateTime_FromDate";
             this.dateTime_FromDate.Size = new System.Drawing.Size(217, 42);
             this.dateTime_FromDate.TabIndex = 1;
@@ -214,7 +214,7 @@
             this.dateTime_ToDate.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTime_ToDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTime_ToDate.Location = new System.Drawing.Point(1044, 22);
-            this.dateTime_ToDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTime_ToDate.Margin = new System.Windows.Forms.Padding(4);
             this.dateTime_ToDate.Name = "dateTime_ToDate";
             this.dateTime_ToDate.Size = new System.Drawing.Size(217, 42);
             this.dateTime_ToDate.TabIndex = 2;
@@ -223,7 +223,7 @@
             // 
             this.panel1.Controls.Add(this.dataGridView_Bill);
             this.panel1.Location = new System.Drawing.Point(8, 97);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1373, 730);
             this.panel1.TabIndex = 0;
@@ -232,7 +232,7 @@
             // 
             this.dataGridView_Bill.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_Bill.Location = new System.Drawing.Point(3, 9);
-            this.dataGridView_Bill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView_Bill.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView_Bill.Name = "dataGridView_Bill";
             this.dataGridView_Bill.RowHeadersWidth = 51;
             this.dataGridView_Bill.Size = new System.Drawing.Size(1367, 716);
@@ -245,9 +245,9 @@
             this.tabPage1.Controls.Add(this.panel4);
             this.tabPage1.Controls.Add(this.panel3);
             this.tabPage1.Location = new System.Drawing.Point(4, 36);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage1.Size = new System.Drawing.Size(1392, 833);
             this.tabPage1.TabIndex = 2;
             this.tabPage1.Text = "Thức ăn";
@@ -259,7 +259,7 @@
             this.panel5.Controls.Add(this.panel17);
             this.panel5.Controls.Add(this.panel7);
             this.panel5.Location = new System.Drawing.Point(808, 11);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(573, 811);
             this.panel5.TabIndex = 1;
@@ -269,7 +269,7 @@
             this.panel8.Controls.Add(this.label2);
             this.panel8.Controls.Add(this.textBoxNameFood);
             this.panel8.Location = new System.Drawing.Point(4, 174);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(563, 68);
             this.panel8.TabIndex = 7;
@@ -289,7 +289,7 @@
             // 
             this.textBoxNameFood.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxNameFood.Location = new System.Drawing.Point(145, 15);
-            this.textBoxNameFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxNameFood.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxNameFood.Name = "textBoxNameFood";
             this.textBoxNameFood.Size = new System.Drawing.Size(393, 38);
             this.textBoxNameFood.TabIndex = 5;
@@ -299,7 +299,7 @@
             this.panel15.Controls.Add(this.cbbCategory);
             this.panel15.Controls.Add(this.label7);
             this.panel15.Location = new System.Drawing.Point(4, 310);
-            this.panel15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel15.Margin = new System.Windows.Forms.Padding(4);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(563, 68);
             this.panel15.TabIndex = 7;
@@ -308,7 +308,7 @@
             // 
             this.cbbCategory.FormattingEnabled = true;
             this.cbbCategory.Location = new System.Drawing.Point(145, 20);
-            this.cbbCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbCategory.Margin = new System.Windows.Forms.Padding(4);
             this.cbbCategory.Name = "cbbCategory";
             this.cbbCategory.Size = new System.Drawing.Size(393, 35);
             this.cbbCategory.TabIndex = 7;
@@ -329,7 +329,7 @@
             this.panel17.Controls.Add(this.label10);
             this.panel17.Controls.Add(this.textBoxFoodPrice);
             this.panel17.Location = new System.Drawing.Point(4, 447);
-            this.panel17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel17.Margin = new System.Windows.Forms.Padding(4);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(563, 68);
             this.panel17.TabIndex = 7;
@@ -349,7 +349,7 @@
             // 
             this.textBoxFoodPrice.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxFoodPrice.Location = new System.Drawing.Point(145, 15);
-            this.textBoxFoodPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxFoodPrice.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxFoodPrice.Name = "textBoxFoodPrice";
             this.textBoxFoodPrice.Size = new System.Drawing.Size(393, 38);
             this.textBoxFoodPrice.TabIndex = 5;
@@ -359,7 +359,7 @@
             this.panel7.Controls.Add(this.label1);
             this.panel7.Controls.Add(this.textBoxIdFood);
             this.panel7.Location = new System.Drawing.Point(4, 37);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(563, 68);
             this.panel7.TabIndex = 6;
@@ -380,7 +380,7 @@
             this.textBoxIdFood.Enabled = false;
             this.textBoxIdFood.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxIdFood.Location = new System.Drawing.Point(145, 15);
-            this.textBoxIdFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxIdFood.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxIdFood.Name = "textBoxIdFood";
             this.textBoxIdFood.Size = new System.Drawing.Size(393, 38);
             this.textBoxIdFood.TabIndex = 5;
@@ -393,7 +393,7 @@
             this.panel4.Controls.Add(this.buttonDelFood);
             this.panel4.Controls.Add(this.buttonAddFood);
             this.panel4.Location = new System.Drawing.Point(8, 7);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(792, 80);
             this.panel4.TabIndex = 1;
@@ -403,7 +403,7 @@
             this.btnClear.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.Image = global::DoAnNhom3.Properties.Resources.cleaning;
             this.btnClear.Location = new System.Drawing.Point(628, 23);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(93, 39);
             this.btnClear.TabIndex = 4;
@@ -415,7 +415,7 @@
             this.buttonViewFood.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonViewFood.Image = global::DoAnNhom3.Properties.Resources.icons8_view_32;
             this.buttonViewFood.Location = new System.Drawing.Point(475, 23);
-            this.buttonViewFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonViewFood.Margin = new System.Windows.Forms.Padding(4);
             this.buttonViewFood.Name = "buttonViewFood";
             this.buttonViewFood.Size = new System.Drawing.Size(93, 39);
             this.buttonViewFood.TabIndex = 3;
@@ -428,7 +428,7 @@
             this.buttonModFood.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonModFood.Image = global::DoAnNhom3.Properties.Resources.icons8_update_32;
             this.buttonModFood.Location = new System.Drawing.Point(323, 23);
-            this.buttonModFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonModFood.Margin = new System.Windows.Forms.Padding(4);
             this.buttonModFood.Name = "buttonModFood";
             this.buttonModFood.Size = new System.Drawing.Size(96, 39);
             this.buttonModFood.TabIndex = 2;
@@ -442,7 +442,7 @@
             this.buttonDelFood.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonDelFood.Image = global::DoAnNhom3.Properties.Resources.icons8_delete_32;
             this.buttonDelFood.Location = new System.Drawing.Point(163, 23);
-            this.buttonDelFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonDelFood.Margin = new System.Windows.Forms.Padding(4);
             this.buttonDelFood.Name = "buttonDelFood";
             this.buttonDelFood.Size = new System.Drawing.Size(93, 39);
             this.buttonDelFood.TabIndex = 1;
@@ -455,7 +455,7 @@
             this.buttonAddFood.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAddFood.Image = global::DoAnNhom3.Properties.Resources.icons8_add_32;
             this.buttonAddFood.Location = new System.Drawing.Point(21, 23);
-            this.buttonAddFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonAddFood.Margin = new System.Windows.Forms.Padding(4);
             this.buttonAddFood.Name = "buttonAddFood";
             this.buttonAddFood.Size = new System.Drawing.Size(93, 39);
             this.buttonAddFood.TabIndex = 0;
@@ -466,7 +466,7 @@
             // 
             this.panel3.Controls.Add(this.dataGridViewFood);
             this.panel3.Location = new System.Drawing.Point(8, 95);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(796, 727);
             this.panel3.TabIndex = 0;
@@ -475,7 +475,7 @@
             // 
             this.dataGridViewFood.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewFood.Location = new System.Drawing.Point(4, 4);
-            this.dataGridViewFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridViewFood.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridViewFood.Name = "dataGridViewFood";
             this.dataGridViewFood.RowHeadersVisible = false;
             this.dataGridViewFood.RowHeadersWidth = 51;
@@ -492,9 +492,9 @@
             this.tabPage3.Controls.Add(this.panel9);
             this.tabPage3.Controls.Add(this.panel18);
             this.tabPage3.Location = new System.Drawing.Point(4, 36);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage3.Size = new System.Drawing.Size(1392, 833);
             this.tabPage3.TabIndex = 3;
             this.tabPage3.Text = "Danh mục";
@@ -504,7 +504,7 @@
             this.panel14.Controls.Add(this.panel12);
             this.panel14.Controls.Add(this.panel13);
             this.panel14.Location = new System.Drawing.Point(815, 7);
-            this.panel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel14.Margin = new System.Windows.Forms.Padding(4);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(575, 793);
             this.panel14.TabIndex = 4;
@@ -514,7 +514,7 @@
             this.panel12.Controls.Add(this.label4);
             this.panel12.Controls.Add(this.textBoxCategoryName);
             this.panel12.Location = new System.Drawing.Point(4, 146);
-            this.panel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel12.Margin = new System.Windows.Forms.Padding(4);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(563, 68);
             this.panel12.TabIndex = 7;
@@ -533,7 +533,7 @@
             // 
             this.textBoxCategoryName.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxCategoryName.Location = new System.Drawing.Point(205, 11);
-            this.textBoxCategoryName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxCategoryName.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxCategoryName.Name = "textBoxCategoryName";
             this.textBoxCategoryName.Size = new System.Drawing.Size(352, 38);
             this.textBoxCategoryName.TabIndex = 5;
@@ -543,7 +543,7 @@
             this.panel13.Controls.Add(this.label5);
             this.panel13.Controls.Add(this.textBoxCategoryId);
             this.panel13.Location = new System.Drawing.Point(4, 52);
-            this.panel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel13.Margin = new System.Windows.Forms.Padding(4);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(563, 68);
             this.panel13.TabIndex = 6;
@@ -563,7 +563,7 @@
             this.textBoxCategoryId.Enabled = false;
             this.textBoxCategoryId.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxCategoryId.Location = new System.Drawing.Point(205, 11);
-            this.textBoxCategoryId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxCategoryId.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxCategoryId.Name = "textBoxCategoryId";
             this.textBoxCategoryId.Size = new System.Drawing.Size(352, 38);
             this.textBoxCategoryId.TabIndex = 5;
@@ -572,7 +572,7 @@
             // 
             this.panel9.Controls.Add(this.dataGridViewCategory);
             this.panel9.Location = new System.Drawing.Point(8, 98);
-            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(799, 729);
             this.panel9.TabIndex = 3;
@@ -581,7 +581,7 @@
             // 
             this.dataGridViewCategory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewCategory.Location = new System.Drawing.Point(7, 5);
-            this.dataGridViewCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridViewCategory.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridViewCategory.Name = "dataGridViewCategory";
             this.dataGridViewCategory.RowHeadersVisible = false;
             this.dataGridViewCategory.RowHeadersWidth = 51;
@@ -599,7 +599,7 @@
             this.panel18.Controls.Add(this.buttonDelCategory);
             this.panel18.Controls.Add(this.buttonAddCategory);
             this.panel18.Location = new System.Drawing.Point(8, 7);
-            this.panel18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel18.Margin = new System.Windows.Forms.Padding(4);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(795, 84);
             this.panel18.TabIndex = 2;
@@ -609,7 +609,7 @@
             this.btb_ClearCategory.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btb_ClearCategory.Image = global::DoAnNhom3.Properties.Resources.cleaning;
             this.btb_ClearCategory.Location = new System.Drawing.Point(569, 14);
-            this.btb_ClearCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btb_ClearCategory.Margin = new System.Windows.Forms.Padding(4);
             this.btb_ClearCategory.Name = "btb_ClearCategory";
             this.btb_ClearCategory.Size = new System.Drawing.Size(77, 57);
             this.btb_ClearCategory.TabIndex = 5;
@@ -620,7 +620,7 @@
             // 
             this.buttonViewCategory.Image = global::DoAnNhom3.Properties.Resources.icons8_view_32;
             this.buttonViewCategory.Location = new System.Drawing.Point(428, 14);
-            this.buttonViewCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonViewCategory.Margin = new System.Windows.Forms.Padding(4);
             this.buttonViewCategory.Name = "buttonViewCategory";
             this.buttonViewCategory.Size = new System.Drawing.Size(87, 57);
             this.buttonViewCategory.TabIndex = 3;
@@ -632,7 +632,7 @@
             this.buttonModCategory.Enabled = false;
             this.buttonModCategory.Image = global::DoAnNhom3.Properties.Resources.icons8_update_32;
             this.buttonModCategory.Location = new System.Drawing.Point(289, 14);
-            this.buttonModCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonModCategory.Margin = new System.Windows.Forms.Padding(4);
             this.buttonModCategory.Name = "buttonModCategory";
             this.buttonModCategory.Size = new System.Drawing.Size(87, 57);
             this.buttonModCategory.TabIndex = 2;
@@ -644,7 +644,7 @@
             this.buttonDelCategory.Enabled = false;
             this.buttonDelCategory.Image = global::DoAnNhom3.Properties.Resources.icons8_delete_32;
             this.buttonDelCategory.Location = new System.Drawing.Point(156, 14);
-            this.buttonDelCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonDelCategory.Margin = new System.Windows.Forms.Padding(4);
             this.buttonDelCategory.Name = "buttonDelCategory";
             this.buttonDelCategory.Size = new System.Drawing.Size(87, 57);
             this.buttonDelCategory.TabIndex = 1;
@@ -656,7 +656,7 @@
             this.buttonAddCategory.Enabled = false;
             this.buttonAddCategory.Image = global::DoAnNhom3.Properties.Resources.icons8_add_32;
             this.buttonAddCategory.Location = new System.Drawing.Point(23, 14);
-            this.buttonAddCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonAddCategory.Margin = new System.Windows.Forms.Padding(4);
             this.buttonAddCategory.Name = "buttonAddCategory";
             this.buttonAddCategory.Size = new System.Drawing.Size(87, 57);
             this.buttonAddCategory.TabIndex = 0;
@@ -670,7 +670,7 @@
             this.tabPage5.Controls.Add(this.panel25);
             this.tabPage5.Controls.Add(this.panel26);
             this.tabPage5.Location = new System.Drawing.Point(4, 36);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Size = new System.Drawing.Size(1392, 833);
             this.tabPage5.TabIndex = 5;
@@ -686,7 +686,7 @@
             this.panel27.Controls.Add(this.panel30);
             this.panel27.Controls.Add(this.panel31);
             this.panel27.Location = new System.Drawing.Point(808, 4);
-            this.panel27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel27.Margin = new System.Windows.Forms.Padding(4);
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(573, 822);
             this.panel27.TabIndex = 7;
@@ -696,7 +696,7 @@
             this.panel11.Controls.Add(this.label9);
             this.panel11.Controls.Add(this.textBoxIdStaff);
             this.panel11.Location = new System.Drawing.Point(4, 130);
-            this.panel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(563, 68);
             this.panel11.TabIndex = 12;
@@ -716,7 +716,7 @@
             this.textBoxIdStaff.Enabled = false;
             this.textBoxIdStaff.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxIdStaff.Location = new System.Drawing.Point(196, 15);
-            this.textBoxIdStaff.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxIdStaff.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxIdStaff.Name = "textBoxIdStaff";
             this.textBoxIdStaff.Size = new System.Drawing.Size(361, 38);
             this.textBoxIdStaff.TabIndex = 5;
@@ -726,7 +726,7 @@
             this.panel10.Controls.Add(this.textBoxPosition);
             this.panel10.Controls.Add(this.label6);
             this.panel10.Location = new System.Drawing.Point(3, 539);
-            this.panel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(563, 68);
             this.panel10.TabIndex = 11;
@@ -736,7 +736,7 @@
             this.textBoxPosition.Enabled = false;
             this.textBoxPosition.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxPosition.Location = new System.Drawing.Point(193, 16);
-            this.textBoxPosition.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxPosition.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxPosition.Name = "textBoxPosition";
             this.textBoxPosition.Size = new System.Drawing.Size(360, 38);
             this.textBoxPosition.TabIndex = 7;
@@ -756,7 +756,7 @@
             this.panel6.Controls.Add(this.textBoxDow);
             this.panel6.Controls.Add(this.label3);
             this.panel6.Location = new System.Drawing.Point(4, 437);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(563, 68);
             this.panel6.TabIndex = 10;
@@ -769,7 +769,7 @@
             this.textBoxDow.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxDow.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.textBoxDow.Location = new System.Drawing.Point(196, 11);
-            this.textBoxDow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxDow.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxDow.Name = "textBoxDow";
             this.textBoxDow.Size = new System.Drawing.Size(356, 42);
             this.textBoxDow.TabIndex = 13;
@@ -791,7 +791,7 @@
             this.buttonResetPassword.Image = global::DoAnNhom3.Properties.Resources.icons8_reset_32;
             this.buttonResetPassword.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonResetPassword.Location = new System.Drawing.Point(292, 629);
-            this.buttonResetPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonResetPassword.Margin = new System.Windows.Forms.Padding(4);
             this.buttonResetPassword.Name = "buttonResetPassword";
             this.buttonResetPassword.Size = new System.Drawing.Size(265, 74);
             this.buttonResetPassword.TabIndex = 9;
@@ -805,7 +805,7 @@
             this.panel29.Controls.Add(this.textBoxSDT);
             this.panel29.Controls.Add(this.label14);
             this.panel29.Location = new System.Drawing.Point(3, 335);
-            this.panel29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel29.Margin = new System.Windows.Forms.Padding(4);
             this.panel29.Name = "panel29";
             this.panel29.Size = new System.Drawing.Size(563, 68);
             this.panel29.TabIndex = 8;
@@ -815,7 +815,7 @@
             this.textBoxSDT.Enabled = false;
             this.textBoxSDT.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxSDT.Location = new System.Drawing.Point(197, 18);
-            this.textBoxSDT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSDT.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxSDT.Name = "textBoxSDT";
             this.textBoxSDT.Size = new System.Drawing.Size(360, 38);
             this.textBoxSDT.TabIndex = 7;
@@ -836,7 +836,7 @@
             this.panel30.Controls.Add(this.label15);
             this.panel30.Controls.Add(this.textBoxFullName);
             this.panel30.Location = new System.Drawing.Point(3, 233);
-            this.panel30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel30.Margin = new System.Windows.Forms.Padding(4);
             this.panel30.Name = "panel30";
             this.panel30.Size = new System.Drawing.Size(563, 68);
             this.panel30.TabIndex = 7;
@@ -856,7 +856,7 @@
             this.textBoxFullName.Enabled = false;
             this.textBoxFullName.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxFullName.Location = new System.Drawing.Point(197, 12);
-            this.textBoxFullName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxFullName.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxFullName.Name = "textBoxFullName";
             this.textBoxFullName.Size = new System.Drawing.Size(360, 38);
             this.textBoxFullName.TabIndex = 5;
@@ -866,7 +866,7 @@
             this.panel31.Controls.Add(this.label16);
             this.panel31.Controls.Add(this.textBoxUsername);
             this.panel31.Location = new System.Drawing.Point(7, 28);
-            this.panel31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel31.Margin = new System.Windows.Forms.Padding(4);
             this.panel31.Name = "panel31";
             this.panel31.Size = new System.Drawing.Size(563, 68);
             this.panel31.TabIndex = 6;
@@ -886,7 +886,7 @@
             this.textBoxUsername.Enabled = false;
             this.textBoxUsername.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxUsername.Location = new System.Drawing.Point(193, 11);
-            this.textBoxUsername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxUsername.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxUsername.Name = "textBoxUsername";
             this.textBoxUsername.Size = new System.Drawing.Size(364, 38);
             this.textBoxUsername.TabIndex = 5;
@@ -895,7 +895,7 @@
             // 
             this.panel25.Controls.Add(this.dataGridViewInfoStaff);
             this.panel25.Location = new System.Drawing.Point(8, 103);
-            this.panel25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel25.Margin = new System.Windows.Forms.Padding(4);
             this.panel25.Name = "panel25";
             this.panel25.Size = new System.Drawing.Size(796, 722);
             this.panel25.TabIndex = 6;
@@ -904,7 +904,7 @@
             // 
             this.dataGridViewInfoStaff.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewInfoStaff.Location = new System.Drawing.Point(4, 4);
-            this.dataGridViewInfoStaff.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridViewInfoStaff.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridViewInfoStaff.Name = "dataGridViewInfoStaff";
             this.dataGridViewInfoStaff.RowHeadersVisible = false;
             this.dataGridViewInfoStaff.RowHeadersWidth = 51;
@@ -921,7 +921,7 @@
             this.panel26.Controls.Add(this.buttonDelAccount);
             this.panel26.Controls.Add(this.buttonAddAccount);
             this.panel26.Location = new System.Drawing.Point(8, 7);
-            this.panel26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel26.Margin = new System.Windows.Forms.Padding(4);
             this.panel26.Name = "panel26";
             this.panel26.Size = new System.Drawing.Size(796, 92);
             this.panel26.TabIndex = 5;
@@ -931,7 +931,7 @@
             this.btn_ClearAccount.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ClearAccount.Image = global::DoAnNhom3.Properties.Resources.cleaning;
             this.btn_ClearAccount.Location = new System.Drawing.Point(563, 18);
-            this.btn_ClearAccount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_ClearAccount.Margin = new System.Windows.Forms.Padding(4);
             this.btn_ClearAccount.Name = "btn_ClearAccount";
             this.btn_ClearAccount.Size = new System.Drawing.Size(111, 57);
             this.btn_ClearAccount.TabIndex = 6;
@@ -942,7 +942,7 @@
             // 
             this.buttonViewAccount.Image = global::DoAnNhom3.Properties.Resources.icons8_view_32;
             this.buttonViewAccount.Location = new System.Drawing.Point(392, 18);
-            this.buttonViewAccount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonViewAccount.Margin = new System.Windows.Forms.Padding(4);
             this.buttonViewAccount.Name = "buttonViewAccount";
             this.buttonViewAccount.Size = new System.Drawing.Size(111, 57);
             this.buttonViewAccount.TabIndex = 3;
@@ -954,7 +954,7 @@
             this.buttonDelAccount.Enabled = false;
             this.buttonDelAccount.Image = global::DoAnNhom3.Properties.Resources.icons8_delete_32;
             this.buttonDelAccount.Location = new System.Drawing.Point(236, 18);
-            this.buttonDelAccount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonDelAccount.Margin = new System.Windows.Forms.Padding(4);
             this.buttonDelAccount.Name = "buttonDelAccount";
             this.buttonDelAccount.Size = new System.Drawing.Size(111, 57);
             this.buttonDelAccount.TabIndex = 1;
@@ -966,7 +966,7 @@
             this.buttonAddAccount.Enabled = false;
             this.buttonAddAccount.Image = global::DoAnNhom3.Properties.Resources.icons8_add_32;
             this.buttonAddAccount.Location = new System.Drawing.Point(57, 18);
-            this.buttonAddAccount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonAddAccount.Margin = new System.Windows.Forms.Padding(4);
             this.buttonAddAccount.Name = "buttonAddAccount";
             this.buttonAddAccount.Size = new System.Drawing.Size(111, 57);
             this.buttonAddAccount.TabIndex = 0;
@@ -1018,14 +1018,16 @@
             // openFileButton
             // 
             this.openFileButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.openFileButton.BackColor = System.Drawing.Color.Transparent;
+            this.openFileButton.BackColor = System.Drawing.Color.DarkOrange;
             this.openFileButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.openFileButton.Location = new System.Drawing.Point(83, 719);
             this.openFileButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.openFileButton.Name = "openFileButton";
             this.openFileButton.Size = new System.Drawing.Size(139, 64);
             this.openFileButton.TabIndex = 9;
+            this.openFileButton.Text = "Audio";
             this.openFileButton.UseVisualStyleBackColor = false;
+            this.openFileButton.Click += new System.EventHandler(this.openFileButton_Click);
             // 
             // chatView
             // 
@@ -1048,7 +1050,7 @@
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(1371, 810);
             this.Controls.Add(this.tabAdmin);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ChuCuaHang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chủ cửa hàng";

@@ -11,13 +11,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Globalization;
 using DoAnNhom3.DTO;
+using System.Net.Http.Json;
 using DoAnNhom3.DAO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-
 
 namespace DoAnNhom3.Client
 {
@@ -454,34 +454,34 @@ namespace DoAnNhom3.Client
         }
 
 
-
-
-
         private static readonly HttpClient HttpClient = new HttpClient();
 
         private async void btnTranscribeAudio_Click(object sender, EventArgs e)
         {
             try
             {
-                using (var httpClient = new HttpClient())
+                using (var openFileDialog = new OpenFileDialog())
                 {
-                    // Lấy API key từ biến môi trường
-                    var apiKey = Environment.GetEnvironmentVariable("ASSEMBLYAI_API_KEY");
-                    if (string.IsNullOrEmpty(apiKey))
+                    openFileDialog.Filter = "Audio Files (*.m4a;*.mp3;*.wav)|*.m4a;*.mp3;*.wav";
+                    openFileDialog.Title = "Select an Audio File";
+
+                    if (openFileDialog.ShowDialog() == DialogResult.OK)
                     {
-                        MessageBox.Show("API key không được thiết lập. Vui lòng kiểm tra biến môi trường ASSEMBLYAI_API_KEY.");
-                        return;
+                        string filePath = openFileDialog.FileName;
+                        using (var httpClient = new HttpClient())
+                        {
+                            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "e343b58869a84b2c9c216e883e88b94a");
+
+                            var uploadUrl = await UploadFileAsync(filePath, httpClient);
+                            var transcript = await CreateTranscriptAsync(uploadUrl, httpClient);
+                            transcript = await WaitForTranscriptToProcess(transcript, httpClient);
+
+                            Console.WriteLine(transcript.Text);
+
+                            // Hiển thị kết quả trong txtChatMessage
+                            txtChatMessage.Text = transcript.Text;
+                        }
                     }
-                    httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
-
-                    // Đường dẫn đến file âm thanh cần chuyển đổi
-                    var path = "D:\\QuanLyCuaHang(BanHoanChinh)\\HelloAndSeeYouAgainBoss.m4a"; // Thay đổi đường dẫn này thành file của bạn
-                    var uploadedFileUrl = await UploadFileAsync(path, httpClient);
-                    var transcript = await CreateTranscriptAsync(uploadedFileUrl, httpClient);
-                    transcript = await WaitForTranscriptToProcess(transcript, httpClient);
-
-                    // Hiển thị kết quả trong txtChatMessage
-                    txtChatMessage.Text = transcript.Text;
                 }
             }
             catch (Exception ex)
@@ -500,8 +500,7 @@ namespace DoAnNhom3.Client
                 using (var response = await httpClient.PostAsync("https://api.assemblyai.com/v2/upload", fileContent))
                 {
                     response.EnsureSuccessStatusCode();
-                    var jsonString = await response.Content.ReadAsStringAsync();
-                    var jsonDoc = JsonDocument.Parse(jsonString);
+                    var jsonDoc = await response.Content.ReadFromJsonAsync<JsonDocument>();
                     return jsonDoc.RootElement.GetProperty("upload_url").GetString();
                 }
             }
@@ -515,8 +514,7 @@ namespace DoAnNhom3.Client
             using (var response = await httpClient.PostAsync("https://api.assemblyai.com/v2/transcript", content))
             {
                 response.EnsureSuccessStatusCode();
-                var jsonString = await response.Content.ReadAsStringAsync();
-                return JsonSerializer.Deserialize<Transcript>(jsonString);
+                return await response.Content.ReadFromJsonAsync<Transcript>();
             }
         }
 
@@ -527,9 +525,7 @@ namespace DoAnNhom3.Client
             while (true)
             {
                 var pollingResponse = await httpClient.GetAsync(pollingEndpoint);
-                var pollingJson = await pollingResponse.Content.ReadAsStringAsync();
-                transcript = JsonSerializer.Deserialize<Transcript>(pollingJson);
-
+                transcript = await pollingResponse.Content.ReadFromJsonAsync<Transcript>();
                 switch (transcript.Status)
                 {
                     case "processing":
@@ -546,7 +542,6 @@ namespace DoAnNhom3.Client
             }
         }
 
-
         public class Transcript
         {
             public string Id { get; set; }
@@ -559,6 +554,9 @@ namespace DoAnNhom3.Client
             public string Error { get; set; }
         }
 
+        private void NhanVien_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }

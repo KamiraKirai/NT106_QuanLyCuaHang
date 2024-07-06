@@ -54,11 +54,11 @@
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btnTranscribeAudio = new System.Windows.Forms.Button();
             this.sendMessageButton = new System.Windows.Forms.Button();
             this.txtChatMessage = new System.Windows.Forms.TextBox();
             this.rtbChatHistory = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnTranscribeAudio = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -352,6 +352,18 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Nhắn tin";
             // 
+            // btnTranscribeAudio
+            // 
+            this.btnTranscribeAudio.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnTranscribeAudio.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.btnTranscribeAudio.Location = new System.Drawing.Point(92, 690);
+            this.btnTranscribeAudio.Name = "btnTranscribeAudio";
+            this.btnTranscribeAudio.Size = new System.Drawing.Size(145, 64);
+            this.btnTranscribeAudio.TabIndex = 10;
+            this.btnTranscribeAudio.Text = "Audio";
+            this.btnTranscribeAudio.UseVisualStyleBackColor = false;
+            this.btnTranscribeAudio.Click += new System.EventHandler(this.btnTranscribeAudio_Click);
+            // 
             // sendMessageButton
             // 
             this.sendMessageButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -404,18 +416,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nhắn tin với mọi người";
             // 
-            // btnTranscribeAudio
-            // 
-            this.btnTranscribeAudio.BackColor = System.Drawing.Color.DarkOrange;
-            this.btnTranscribeAudio.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.btnTranscribeAudio.Location = new System.Drawing.Point(92, 690);
-            this.btnTranscribeAudio.Name = "btnTranscribeAudio";
-            this.btnTranscribeAudio.Size = new System.Drawing.Size(145, 64);
-            this.btnTranscribeAudio.TabIndex = 10;
-            this.btnTranscribeAudio.Text = "Micro";
-            this.btnTranscribeAudio.UseVisualStyleBackColor = false;
-            this.btnTranscribeAudio.Click += new System.EventHandler(this.btnTranscribeAudio_Click);
-            // 
             // NhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -429,6 +429,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nhân viên";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.NhanVien_FormClosing);
+            this.Load += new System.EventHandler(this.NhanVien_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.tabControl1.ResumeLayout(false);
