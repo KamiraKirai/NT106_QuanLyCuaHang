@@ -1,0 +1,27 @@
+
+# Visual Studio
+.vs/
+*.vscode
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.log
+
+# Build Folders
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+
+# Others
+*.app
+*.ipa
+*.apk
+*.lib
+*.jar
+*.pyc
+*.class
+node_modules/
+
