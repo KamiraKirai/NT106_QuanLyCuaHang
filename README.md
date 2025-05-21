@@ -1,1 +1,1 @@
-# NT106_QuanLyCuaHang
+QuanLyCuaHang
